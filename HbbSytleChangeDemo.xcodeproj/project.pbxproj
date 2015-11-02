@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7AF75931BE6EFB000AE52DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75921BE6EFB000AE52DC /* main.m */; };
+		F7AF75961BE6EFB000AE52DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75951BE6EFB000AE52DC /* AppDelegate.m */; };
+		F7AF75991BE6EFB000AE52DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75981BE6EFB000AE52DC /* ViewController.m */; };
+		F7AF759C1BE6EFB000AE52DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AF759A1BE6EFB000AE52DC /* Main.storyboard */; };
+		F7AF759E1BE6EFB000AE52DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AF759D1BE6EFB000AE52DC /* Assets.xcassets */; };
+		F7AF75A11BE6EFB000AE52DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AF759F1BE6EFB000AE52DC /* LaunchScreen.storyboard */; };
+		F7AF75AC1BE6EFB000AE52DC /* HbbSytleChangeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75AB1BE6EFB000AE52DC /* HbbSytleChangeDemoTests.m */; };
+		F7AF75B71BE6EFB000AE52DC /* HbbSytleChangeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75B61BE6EFB000AE52DC /* HbbSytleChangeDemoUITests.m */; };
+		F7AF75CE1BE6FDB100AE52DC /* HbbUIStyleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75CC1BE6FDB100AE52DC /* HbbUIStyleHelper.m */; };
+		F7AF75D01BE6FDDA00AE52DC /* MainUIStyle.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7AF75CF1BE6FDDA00AE52DC /* MainUIStyle.plist */; };
+		F7AF75DF1BE7000400AE52DC /* S_NormalColorNormalFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75DE1BE7000400AE52DC /* S_NormalColorNormalFontLabel.m */; };
+		F7AF75E21BE7002800AE52DC /* S_TextColor2NormalFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75E11BE7002800AE52DC /* S_TextColor2NormalFontLabel.m */; };
+		F7AF75E51BE7005000AE52DC /* S_NormalColorSmallFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75E41BE7005000AE52DC /* S_NormalColorSmallFontLabel.m */; };
+		F7AF75E81BE7006A00AE52DC /* S_MainColorSmallFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75E71BE7006A00AE52DC /* S_MainColorSmallFontLabel.m */; };
+		F7AF75EB1BE700FF00AE52DC /* S_TextColor2SmallSmallFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75EA1BE700FF00AE52DC /* S_TextColor2SmallSmallFontLabel.m */; };
+		F7AF75EE1BE7029600AE52DC /* S_CoolColorNormalFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75ED1BE7029600AE52DC /* S_CoolColorNormalFontLabel.m */; };
+		F7AF75F11BE7032A00AE52DC /* S_WarmColorBigestFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75F01BE7032A00AE52DC /* S_WarmColorBigestFontLabel.m */; };
+		F7AF75F41BE7050500AE52DC /* S_lineColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75F31BE7050500AE52DC /* S_lineColorView.m */; };
+		F7AF75F71BE7053C00AE52DC /* S_PageBgColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75F61BE7053C00AE52DC /* S_PageBgColorView.m */; };
+		F7AF76001BE70D9200AE52DC /* S_FullMainColorNormalFontButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75FF1BE70D9200AE52DC /* S_FullMainColorNormalFontButton.m */; };
+		F7AF76031BE70DB500AE52DC /* S_MainColorNormalFontButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF76021BE70DB500AE52DC /* S_MainColorNormalFontButton.m */; };
+		F7AF76061BE70DE100AE52DC /* S_CoolColorNormalFontButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF76051BE70DE100AE52DC /* S_CoolColorNormalFontButton.m */; };
+		F7AF76091BE70E3000AE52DC /* S_textColor2SmallFontButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF76081BE70E3000AE52DC /* S_textColor2SmallFontButton.m */; };
+		F7AF760C1BE70E8E00AE52DC /* S_RoundNormalColorFontTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF760B1BE70E8E00AE52DC /* S_RoundNormalColorFontTextField.m */; };
+		F7AF760F1BE70EA800AE52DC /* S_NormalColorFontTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF760E1BE70EA800AE52DC /* S_NormalColorFontTextField.m */; };
+		F7AF76121BE70F1600AE52DC /* S_MainColorSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF76111BE70F1600AE52DC /* S_MainColorSwitch.m */; };
+		F7AF76161BE731E900AE52DC /* StyleChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF76151BE731E900AE52DC /* StyleChangeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7AF75A81BE6EFB000AE52DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AF75861BE6EFB000AE52DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AF758D1BE6EFB000AE52DC;
+			remoteInfo = HbbSytleChangeDemo;
+		};
+		F7AF75B31BE6EFB000AE52DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AF75861BE6EFB000AE52DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AF758D1BE6EFB000AE52DC;
+			remoteInfo = HbbSytleChangeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7AF758E1BE6EFB000AE52DC /* HbbSytleChangeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HbbSytleChangeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AF75921BE6EFB000AE52DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7AF75941BE6EFB000AE52DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7AF75951BE6EFB000AE52DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7AF75971BE6EFB000AE52DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7AF75981BE6EFB000AE52DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7AF759B1BE6EFB000AE52DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7AF759D1BE6EFB000AE52DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7AF75A01BE6EFB000AE52DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7AF75A21BE6EFB000AE52DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AF75A71BE6EFB000AE52DC /* HbbSytleChangeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HbbSytleChangeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AF75AB1BE6EFB000AE52DC /* HbbSytleChangeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HbbSytleChangeDemoTests.m; sourceTree = "<group>"; };
+		F7AF75AD1BE6EFB000AE52DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AF75B21BE6EFB000AE52DC /* HbbSytleChangeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HbbSytleChangeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AF75B61BE6EFB000AE52DC /* HbbSytleChangeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HbbSytleChangeDemoUITests.m; sourceTree = "<group>"; };
+		F7AF75B81BE6EFB000AE52DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AF75CB1BE6FDB100AE52DC /* HbbUIStyleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HbbUIStyleHelper.h; sourceTree = "<group>"; };
+		F7AF75CC1BE6FDB100AE52DC /* HbbUIStyleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HbbUIStyleHelper.m; sourceTree = "<group>"; };
+		F7AF75CD1BE6FDB100AE52DC /* HbbUIStyleConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HbbUIStyleConstant.h; sourceTree = "<group>"; };
+		F7AF75CF1BE6FDDA00AE52DC /* MainUIStyle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainUIStyle.plist; sourceTree = "<group>"; };
+		F7AF75DD1BE7000400AE52DC /* S_NormalColorNormalFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_NormalColorNormalFontLabel.h; sourceTree = "<group>"; };
+		F7AF75DE1BE7000400AE52DC /* S_NormalColorNormalFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_NormalColorNormalFontLabel.m; sourceTree = "<group>"; };
+		F7AF75E01BE7002800AE52DC /* S_TextColor2NormalFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_TextColor2NormalFontLabel.h; sourceTree = "<group>"; };
+		F7AF75E11BE7002800AE52DC /* S_TextColor2NormalFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_TextColor2NormalFontLabel.m; sourceTree = "<group>"; };
+		F7AF75E31BE7005000AE52DC /* S_NormalColorSmallFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_NormalColorSmallFontLabel.h; sourceTree = "<group>"; };
+		F7AF75E41BE7005000AE52DC /* S_NormalColorSmallFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_NormalColorSmallFontLabel.m; sourceTree = "<group>"; };
+		F7AF75E61BE7006A00AE52DC /* S_MainColorSmallFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_MainColorSmallFontLabel.h; sourceTree = "<group>"; };
+		F7AF75E71BE7006A00AE52DC /* S_MainColorSmallFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_MainColorSmallFontLabel.m; sourceTree = "<group>"; };
+		F7AF75E91BE700FF00AE52DC /* S_TextColor2SmallSmallFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_TextColor2SmallSmallFontLabel.h; sourceTree = "<group>"; };
+		F7AF75EA1BE700FF00AE52DC /* S_TextColor2SmallSmallFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_TextColor2SmallSmallFontLabel.m; sourceTree = "<group>"; };
+		F7AF75EC1BE7029600AE52DC /* S_CoolColorNormalFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_CoolColorNormalFontLabel.h; sourceTree = "<group>"; };
+		F7AF75ED1BE7029600AE52DC /* S_CoolColorNormalFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_CoolColorNormalFontLabel.m; sourceTree = "<group>"; };
+		F7AF75EF1BE7032A00AE52DC /* S_WarmColorBigestFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_WarmColorBigestFontLabel.h; sourceTree = "<group>"; };
+		F7AF75F01BE7032A00AE52DC /* S_WarmColorBigestFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_WarmColorBigestFontLabel.m; sourceTree = "<group>"; };
+		F7AF75F21BE7050500AE52DC /* S_lineColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_lineColorView.h; sourceTree = "<group>"; };
+		F7AF75F31BE7050500AE52DC /* S_lineColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_lineColorView.m; sourceTree = "<group>"; };
+		F7AF75F51BE7053C00AE52DC /* S_PageBgColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_PageBgColorView.h; sourceTree = "<group>"; };
+		F7AF75F61BE7053C00AE52DC /* S_PageBgColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_PageBgColorView.m; sourceTree = "<group>"; };
+		F7AF75FE1BE70D9200AE52DC /* S_FullMainColorNormalFontButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_FullMainColorNormalFontButton.h; sourceTree = "<group>"; };
+		F7AF75FF1BE70D9200AE52DC /* S_FullMainColorNormalFontButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_FullMainColorNormalFontButton.m; sourceTree = "<group>"; };
+		F7AF76011BE70DB500AE52DC /* S_MainColorNormalFontButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_MainColorNormalFontButton.h; sourceTree = "<group>"; };
+		F7AF76021BE70DB500AE52DC /* S_MainColorNormalFontButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_MainColorNormalFontButton.m; sourceTree = "<group>"; };
+		F7AF76041BE70DE100AE52DC /* S_CoolColorNormalFontButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_CoolColorNormalFontButton.h; sourceTree = "<group>"; };
+		F7AF76051BE70DE100AE52DC /* S_CoolColorNormalFontButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_CoolColorNormalFontButton.m; sourceTree = "<group>"; };
+		F7AF76071BE70E3000AE52DC /* S_textColor2SmallFontButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_textColor2SmallFontButton.h; sourceTree = "<group>"; };
+		F7AF76081BE70E3000AE52DC /* S_textColor2SmallFontButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_textColor2SmallFontButton.m; sourceTree = "<group>"; };
+		F7AF760A1BE70E8E00AE52DC /* S_RoundNormalColorFontTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_RoundNormalColorFontTextField.h; sourceTree = "<group>"; };
+		F7AF760B1BE70E8E00AE52DC /* S_RoundNormalColorFontTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_RoundNormalColorFontTextField.m; sourceTree = "<group>"; };
+		F7AF760D1BE70EA800AE52DC /* S_NormalColorFontTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_NormalColorFontTextField.h; sourceTree = "<group>"; };
+		F7AF760E1BE70EA800AE52DC /* S_NormalColorFontTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_NormalColorFontTextField.m; sourceTree = "<group>"; };
+		F7AF76101BE70F1600AE52DC /* S_MainColorSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_MainColorSwitch.h; sourceTree = "<group>"; };
+		F7AF76111BE70F1600AE52DC /* S_MainColorSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_MainColorSwitch.m; sourceTree = "<group>"; };
+		F7AF76141BE731E900AE52DC /* StyleChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleChangeViewController.h; sourceTree = "<group>"; };
+		F7AF76151BE731E900AE52DC /* StyleChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleChangeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7AF758B1BE6EFB000AE52DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AF75A41BE6EFB000AE52DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AF75AF1BE6EFB000AE52DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7AF75851BE6EFB000AE52DC = {
+			isa = PBXGroup;
+			children = (
+				F7AF75901BE6EFB000AE52DC /* HbbSytleChangeDemo */,
+				F7AF75AA1BE6EFB000AE52DC /* HbbSytleChangeDemoTests */,
+				F7AF75B51BE6EFB000AE52DC /* HbbSytleChangeDemoUITests */,
+				F7AF758F1BE6EFB000AE52DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7AF758F1BE6EFB000AE52DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF758E1BE6EFB000AE52DC /* HbbSytleChangeDemo.app */,
+				F7AF75A71BE6EFB000AE52DC /* HbbSytleChangeDemoTests.xctest */,
+				F7AF75B21BE6EFB000AE52DC /* HbbSytleChangeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7AF75901BE6EFB000AE52DC /* HbbSytleChangeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF75C51BE6EFCE00AE52DC /* Sections */,
+				F7AF75941BE6EFB000AE52DC /* AppDelegate.h */,
+				F7AF75951BE6EFB000AE52DC /* AppDelegate.m */,
+				F7AF75971BE6EFB000AE52DC /* ViewController.h */,
+				F7AF75981BE6EFB000AE52DC /* ViewController.m */,
+				F7AF759A1BE6EFB000AE52DC /* Main.storyboard */,
+				F7AF759D1BE6EFB000AE52DC /* Assets.xcassets */,
+				F7AF759F1BE6EFB000AE52DC /* LaunchScreen.storyboard */,
+				F7AF75A21BE6EFB000AE52DC /* Info.plist */,
+				F7AF75911BE6EFB000AE52DC /* Supporting Files */,
+			);
+			path = HbbSytleChangeDemo;
+			sourceTree = "<group>";
+		};
+		F7AF75911BE6EFB000AE52DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF75921BE6EFB000AE52DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7AF75AA1BE6EFB000AE52DC /* HbbSytleChangeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF75AB1BE6EFB000AE52DC /* HbbSytleChangeDemoTests.m */,
+				F7AF75AD1BE6EFB000AE52DC /* Info.plist */,
+			);
+			path = HbbSytleChangeDemoTests;
+			sourceTree = "<group>";
+		};
+		F7AF75B51BE6EFB000AE52DC /* HbbSytleChangeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF75B61BE6EFB000AE52DC /* HbbSytleChangeDemoUITests.m */,
+				F7AF75B81BE6EFB000AE52DC /* Info.plist */,
+			);
+			path = HbbSytleChangeDemoUITests;
+			sourceTree = "<group>";
+		};
+		F7AF75C41BE6EFC400AE52DC /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF75DD1BE7000400AE52DC /* S_NormalColorNormalFontLabel.h */,
+				F7AF75DE1BE7000400AE52DC /* S_NormalColorNormalFontLabel.m */,
+				F7AF75E01BE7002800AE52DC /* S_TextColor2NormalFontLabel.h */,
+				F7AF75E11BE7002800AE52DC /* S_TextColor2NormalFontLabel.m */,
+				F7AF75E31BE7005000AE52DC /* S_NormalColorSmallFontLabel.h */,
+				F7AF75E41BE7005000AE52DC /* S_NormalColorSmallFontLabel.m */,
+				F7AF75E61BE7006A00AE52DC /* S_MainColorSmallFontLabel.h */,
+				F7AF75E71BE7006A00AE52DC /* S_MainColorSmallFontLabel.m */,
+				F7AF75E91BE700FF00AE52DC /* S_TextColor2SmallSmallFontLabel.h */,
+				F7AF75EA1BE700FF00AE52DC /* S_TextColor2SmallSmallFontLabel.m */,
+				F7AF75EC1BE7029600AE52DC /* S_CoolColorNormalFontLabel.h */,
+				F7AF75ED1BE7029600AE52DC /* S_CoolColorNormalFontLabel.m */,
+				F7AF75EF1BE7032A00AE52DC /* S_WarmColorBigestFontLabel.h */,
+				F7AF75F01BE7032A00AE52DC /* S_WarmColorBigestFontLabel.m */,
+			);
+			name = Labels;
+			sourceTree = "<group>";
+		};
+		F7AF75C51BE6EFCE00AE52DC /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF76131BE711C500AE52DC /* StyleChangeFramework */,
+				F7AF75C91BE6F00B00AE52DC /* Switchs */,
+				F7AF75C81BE6EFF100AE52DC /* TextFields */,
+				F7AF75C71BE6EFEB00AE52DC /* Views */,
+				F7AF75C61BE6EFE600AE52DC /* Buttons */,
+				F7AF75C41BE6EFC400AE52DC /* Labels */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		F7AF75C61BE6EFE600AE52DC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF75FE1BE70D9200AE52DC /* S_FullMainColorNormalFontButton.h */,
+				F7AF75FF1BE70D9200AE52DC /* S_FullMainColorNormalFontButton.m */,
+				F7AF76011BE70DB500AE52DC /* S_MainColorNormalFontButton.h */,
+				F7AF76021BE70DB500AE52DC /* S_MainColorNormalFontButton.m */,
+				F7AF76041BE70DE100AE52DC /* S_CoolColorNormalFontButton.h */,
+				F7AF76051BE70DE100AE52DC /* S_CoolColorNormalFontButton.m */,
+				F7AF76071BE70E3000AE52DC /* S_textColor2SmallFontButton.h */,
+				F7AF76081BE70E3000AE52DC /* S_textColor2SmallFontButton.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		F7AF75C71BE6EFEB00AE52DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF75F21BE7050500AE52DC /* S_lineColorView.h */,
+				F7AF75F31BE7050500AE52DC /* S_lineColorView.m */,
+				F7AF75F51BE7053C00AE52DC /* S_PageBgColorView.h */,
+				F7AF75F61BE7053C00AE52DC /* S_PageBgColorView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F7AF75C81BE6EFF100AE52DC /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF760A1BE70E8E00AE52DC /* S_RoundNormalColorFontTextField.h */,
+				F7AF760B1BE70E8E00AE52DC /* S_RoundNormalColorFontTextField.m */,
+				F7AF760D1BE70EA800AE52DC /* S_NormalColorFontTextField.h */,
+				F7AF760E1BE70EA800AE52DC /* S_NormalColorFontTextField.m */,
+			);
+			name = TextFields;
+			sourceTree = "<group>";
+		};
+		F7AF75C91BE6F00B00AE52DC /* Switchs */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF76101BE70F1600AE52DC /* S_MainColorSwitch.h */,
+				F7AF76111BE70F1600AE52DC /* S_MainColorSwitch.m */,
+			);
+			name = Switchs;
+			sourceTree = "<group>";
+		};
+		F7AF76131BE711C500AE52DC /* StyleChangeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF75CF1BE6FDDA00AE52DC /* MainUIStyle.plist */,
+				F7AF75CB1BE6FDB100AE52DC /* HbbUIStyleHelper.h */,
+				F7AF75CC1BE6FDB100AE52DC /* HbbUIStyleHelper.m */,
+				F7AF75CD1BE6FDB100AE52DC /* HbbUIStyleConstant.h */,
+				F7AF76141BE731E900AE52DC /* StyleChangeViewController.h */,
+				F7AF76151BE731E900AE52DC /* StyleChangeViewController.m */,
+			);
+			name = StyleChangeFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7AF758D1BE6EFB000AE52DC /* HbbSytleChangeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AF75BB1BE6EFB000AE52DC /* Build configuration list for PBXNativeTarget "HbbSytleChangeDemo" */;
+			buildPhases = (
+				F7AF758A1BE6EFB000AE52DC /* Sources */,
+				F7AF758B1BE6EFB000AE52DC /* Frameworks */,
+				F7AF758C1BE6EFB000AE52DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HbbSytleChangeDemo;
+			productName = HbbSytleChangeDemo;
+			productReference = F7AF758E1BE6EFB000AE52DC /* HbbSytleChangeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7AF75A61BE6EFB000AE52DC /* HbbSytleChangeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AF75BE1BE6EFB000AE52DC /* Build configuration list for PBXNativeTarget "HbbSytleChangeDemoTests" */;
+			buildPhases = (
+				F7AF75A31BE6EFB000AE52DC /* Sources */,
+				F7AF75A41BE6EFB000AE52DC /* Frameworks */,
+				F7AF75A51BE6EFB000AE52DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AF75A91BE6EFB000AE52DC /* PBXTargetDependency */,
+			);
+			name = HbbSytleChangeDemoTests;
+			productName = HbbSytleChangeDemoTests;
+			productReference = F7AF75A71BE6EFB000AE52DC /* HbbSytleChangeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7AF75B11BE6EFB000AE52DC /* HbbSytleChangeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AF75C11BE6EFB000AE52DC /* Build configuration list for PBXNativeTarget "HbbSytleChangeDemoUITests" */;
+			buildPhases = (
+				F7AF75AE1BE6EFB000AE52DC /* Sources */,
+				F7AF75AF1BE6EFB000AE52DC /* Frameworks */,
+				F7AF75B01BE6EFB000AE52DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AF75B41BE6EFB000AE52DC /* PBXTargetDependency */,
+			);
+			name = HbbSytleChangeDemoUITests;
+			productName = HbbSytleChangeDemoUITests;
+			productReference = F7AF75B21BE6EFB000AE52DC /* HbbSytleChangeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7AF75861BE6EFB000AE52DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "LUOCHENG DE";
+				TargetAttributes = {
+					F7AF758D1BE6EFB000AE52DC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F7AF75A61BE6EFB000AE52DC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F7AF758D1BE6EFB000AE52DC;
+					};
+					F7AF75B11BE6EFB000AE52DC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F7AF758D1BE6EFB000AE52DC;
+					};
+				};
+			};
+			buildConfigurationList = F7AF75891BE6EFB000AE52DC /* Build configuration list for PBXProject "HbbSytleChangeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7AF75851BE6EFB000AE52DC;
+			productRefGroup = F7AF758F1BE6EFB000AE52DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AF758D1BE6EFB000AE52DC /* HbbSytleChangeDemo */,
+				F7AF75A61BE6EFB000AE52DC /* HbbSytleChangeDemoTests */,
+				F7AF75B11BE6EFB000AE52DC /* HbbSytleChangeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7AF758C1BE6EFB000AE52DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AF75A11BE6EFB000AE52DC /* LaunchScreen.storyboard in Resources */,
+				F7AF759E1BE6EFB000AE52DC /* Assets.xcassets in Resources */,
+				F7AF759C1BE6EFB000AE52DC /* Main.storyboard in Resources */,
+				F7AF75D01BE6FDDA00AE52DC /* MainUIStyle.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AF75A51BE6EFB000AE52DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AF75B01BE6EFB000AE52DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7AF758A1BE6EFB000AE52DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AF75F41BE7050500AE52DC /* S_lineColorView.m in Sources */,
+				F7AF76001BE70D9200AE52DC /* S_FullMainColorNormalFontButton.m in Sources */,
+				F7AF76061BE70DE100AE52DC /* S_CoolColorNormalFontButton.m in Sources */,
+				F7AF760F1BE70EA800AE52DC /* S_NormalColorFontTextField.m in Sources */,
+				F7AF75991BE6EFB000AE52DC /* ViewController.m in Sources */,
+				F7AF75CE1BE6FDB100AE52DC /* HbbUIStyleHelper.m in Sources */,
+				F7AF76121BE70F1600AE52DC /* S_MainColorSwitch.m in Sources */,
+				F7AF75E21BE7002800AE52DC /* S_TextColor2NormalFontLabel.m in Sources */,
+				F7AF75E51BE7005000AE52DC /* S_NormalColorSmallFontLabel.m in Sources */,
+				F7AF76161BE731E900AE52DC /* StyleChangeViewController.m in Sources */,
+				F7AF76031BE70DB500AE52DC /* S_MainColorNormalFontButton.m in Sources */,
+				F7AF75E81BE7006A00AE52DC /* S_MainColorSmallFontLabel.m in Sources */,
+				F7AF75EE1BE7029600AE52DC /* S_CoolColorNormalFontLabel.m in Sources */,
+				F7AF75F11BE7032A00AE52DC /* S_WarmColorBigestFontLabel.m in Sources */,
+				F7AF76091BE70E3000AE52DC /* S_textColor2SmallFontButton.m in Sources */,
+				F7AF75F71BE7053C00AE52DC /* S_PageBgColorView.m in Sources */,
+				F7AF75961BE6EFB000AE52DC /* AppDelegate.m in Sources */,
+				F7AF760C1BE70E8E00AE52DC /* S_RoundNormalColorFontTextField.m in Sources */,
+				F7AF75931BE6EFB000AE52DC /* main.m in Sources */,
+				F7AF75EB1BE700FF00AE52DC /* S_TextColor2SmallSmallFontLabel.m in Sources */,
+				F7AF75DF1BE7000400AE52DC /* S_NormalColorNormalFontLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AF75A31BE6EFB000AE52DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AF75AC1BE6EFB000AE52DC /* HbbSytleChangeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AF75AE1BE6EFB000AE52DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AF75B71BE6EFB000AE52DC /* HbbSytleChangeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7AF75A91BE6EFB000AE52DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AF758D1BE6EFB000AE52DC /* HbbSytleChangeDemo */;
+			targetProxy = F7AF75A81BE6EFB000AE52DC /* PBXContainerItemProxy */;
+		};
+		F7AF75B41BE6EFB000AE52DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AF758D1BE6EFB000AE52DC /* HbbSytleChangeDemo */;
+			targetProxy = F7AF75B31BE6EFB000AE52DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7AF759A1BE6EFB000AE52DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AF759B1BE6EFB000AE52DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7AF759F1BE6EFB000AE52DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AF75A01BE6EFB000AE52DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7AF75B91BE6EFB000AE52DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7AF75BA1BE6EFB000AE52DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7AF75BC1BE6EFB000AE52DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HbbSytleChangeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinggen.HbbSytleChangeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7AF75BD1BE6EFB000AE52DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HbbSytleChangeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinggen.HbbSytleChangeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7AF75BF1BE6EFB000AE52DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HbbSytleChangeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinggen.HbbSytleChangeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HbbSytleChangeDemo.app/HbbSytleChangeDemo";
+			};
+			name = Debug;
+		};
+		F7AF75C01BE6EFB000AE52DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HbbSytleChangeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinggen.HbbSytleChangeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HbbSytleChangeDemo.app/HbbSytleChangeDemo";
+			};
+			name = Release;
+		};
+		F7AF75C21BE6EFB000AE52DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HbbSytleChangeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinggen.HbbSytleChangeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HbbSytleChangeDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F7AF75C31BE6EFB000AE52DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HbbSytleChangeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinggen.HbbSytleChangeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HbbSytleChangeDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7AF75891BE6EFB000AE52DC /* Build configuration list for PBXProject "HbbSytleChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AF75B91BE6EFB000AE52DC /* Debug */,
+				F7AF75BA1BE6EFB000AE52DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AF75BB1BE6EFB000AE52DC /* Build configuration list for PBXNativeTarget "HbbSytleChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AF75BC1BE6EFB000AE52DC /* Debug */,
+				F7AF75BD1BE6EFB000AE52DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AF75BE1BE6EFB000AE52DC /* Build configuration list for PBXNativeTarget "HbbSytleChangeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AF75BF1BE6EFB000AE52DC /* Debug */,
+				F7AF75C01BE6EFB000AE52DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AF75C11BE6EFB000AE52DC /* Build configuration list for PBXNativeTarget "HbbSytleChangeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AF75C21BE6EFB000AE52DC /* Debug */,
+				F7AF75C31BE6EFB000AE52DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7AF75861BE6EFB000AE52DC /* Project object */;
+}

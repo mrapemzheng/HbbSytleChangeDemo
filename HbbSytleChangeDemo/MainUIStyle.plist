@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FontSizeStyle</key>
+	<dict>
+		<key>BigestFontSize</key>
+		<integer>32</integer>
+		<key>NavigationFontSize</key>
+		<integer>17</integer>
+		<key>NormalFontSize</key>
+		<integer>15</integer>
+		<key>SmallFontSize</key>
+		<integer>13</integer>
+		<key>SmallSmallFontSize</key>
+		<integer>11</integer>
+	</dict>
+	<key>ColorStyle</key>
+	<dict>
+		<key>LineColor</key>
+		<string>0xd9d9d9</string>
+		<key>PageBackgroundColor</key>
+		<string>0xf0f0f0</string>
+		<key>NavigationBarTintColor</key>
+		<string>0xfefefe</string>
+		<key>NavigationTintColor</key>
+		<string>0x4d4d4d</string>
+		<key>NormalTextColor</key>
+		<string>0x4d4d4d</string>
+		<key>TextColor2</key>
+		<string>0x858585</string>
+		<key>CoolTextColor</key>
+		<string>0x3a85d8</string>
+		<key>WarmTextColor</key>
+		<string>0x4EB420</string>
+		<key>MainColor</key>
+		<string>0xE22F33</string>
+		<key>MainOpposeColor</key>
+		<string>0xffffff</string>
+		<key>PlaceholderColor</key>
+		<string>0xaaaaaa</string>
+	</dict>
+	<key>ImageStyle</key>
+	<dict/>
+	<key>SizeStyle</key>
+	<dict>
+		<key>NormalCornerRadius</key>
+		<integer>5</integer>
+	</dict>
+</dict>
+</plist>
