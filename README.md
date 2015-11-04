@@ -27,21 +27,25 @@ ios皮肤/样式更换 适配xib和代码
 例如继承于UILabel的S_WarmColorBigestFontLabel 
 
 .h文件
+
 实现HbbStyleControlDelegate的hbbStyleControlChangeStyle方法
+
 import <UIKit/UIKit.h>
+
 import "HbbUIStyleConstant.h"
+
 import "HbbUIStyleHelper.h"
-/**
- *  暖色 超大字体 标签
- *
- *  @author apem
- */
+
+//暖色 超大字体 标签
+
 @interface S_WarmColorBigestFontLabel : UILabel<HbbStyleControlDelegate>
 
 @end
 
 .m文件
+
 import "S_WarmColorBigestFontLabel.h"
+
 @implementation S_WarmColorBigestFontLabel
 
 - (void)hbbStyleControlChangeStyle
@@ -51,6 +55,7 @@ import "S_WarmColorBigestFontLabel.h"
     self.font = [UIFont systemFontOfSize:fontSize];
     self.textColor = color;
 }
+
 @end
 
 #2.配置样式文件
