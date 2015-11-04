@@ -27,7 +27,7 @@ ios皮肤/样式更换 适配xib和代码
 例如继承于UILabel的S_WarmColorBigestFontLabel 
 
 实现HbbStyleControlDelegate的hbbStyleControlChangeStyle方法
-#import <UIKit/UIKit.h>
+##import <UIKit/UIKit.h>
 #import "HbbUIStyleConstant.h"
 #import "HbbUIStyleHelper.h"
 
