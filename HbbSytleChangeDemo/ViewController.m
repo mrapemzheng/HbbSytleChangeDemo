@@ -24,7 +24,6 @@
     S_MainColorSwitch *colorSwitch = [[S_MainColorSwitch alloc] initWithFrame:CGRectMake(50, 100, 80, 30)];
     colorSwitch.on = YES;
     [self.view addSubview:colorSwitch];
-    [colorSwitch hbbStyleControlChangeStyle];
 }
 
 - (void)didReceiveMemoryWarning {
