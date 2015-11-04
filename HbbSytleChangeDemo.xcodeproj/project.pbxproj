@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1861B4E31BEA439D00D6D95B /* MainUIStyle2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1861B4E21BEA439D00D6D95B /* MainUIStyle2.plist */; settings = {ASSET_TAGS = (); }; };
 		F7AF75931BE6EFB000AE52DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75921BE6EFB000AE52DC /* main.m */; };
 		F7AF75961BE6EFB000AE52DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75951BE6EFB000AE52DC /* AppDelegate.m */; };
 		F7AF75991BE6EFB000AE52DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF75981BE6EFB000AE52DC /* ViewController.m */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1861B4E21BEA439D00D6D95B /* MainUIStyle2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainUIStyle2.plist; sourceTree = "<group>"; };
 		F7AF758E1BE6EFB000AE52DC /* HbbSytleChangeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HbbSytleChangeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AF75921BE6EFB000AE52DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7AF75941BE6EFB000AE52DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				F7AF75CF1BE6FDDA00AE52DC /* MainUIStyle.plist */,
+				1861B4E21BEA439D00D6D95B /* MainUIStyle2.plist */,
 				F7AF75CB1BE6FDB100AE52DC /* HbbUIStyleHelper.h */,
 				F7AF75CC1BE6FDB100AE52DC /* HbbUIStyleHelper.m */,
 				F7AF75CD1BE6FDB100AE52DC /* HbbUIStyleConstant.h */,
@@ -394,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1861B4E31BEA439D00D6D95B /* MainUIStyle2.plist in Resources */,
 				F7AF75A11BE6EFB000AE52DC /* LaunchScreen.storyboard in Resources */,
 				F7AF759E1BE6EFB000AE52DC /* Assets.xcassets in Resources */,
 				F7AF759C1BE6EFB000AE52DC /* Main.storyboard in Resources */,
