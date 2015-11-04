@@ -17,7 +17,7 @@ ios皮肤/样式更换 适配xib和代码
 #效果2
 ![image](https://github.com/iosApem/HbbSytleChangeDemo/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE2.png)
 
-#使用方法
+#换肤的使用方法
 
 ![image](https://github.com/iosApem/HbbSytleChangeDemo/blob/master/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%951.png)
 
@@ -26,11 +26,11 @@ ios皮肤/样式更换 适配xib和代码
 
 例如继承于UILabel的S_WarmColorBigestFontLabel 
 
+.h文件
 实现HbbStyleControlDelegate的hbbStyleControlChangeStyle方法
-##import <UIKit/UIKit.h>
-#import "HbbUIStyleConstant.h"
-#import "HbbUIStyleHelper.h"
-
+import <UIKit/UIKit.h>
+import "HbbUIStyleConstant.h"
+import "HbbUIStyleHelper.h"
 /**
  *  暖色 超大字体 标签
  *
@@ -40,8 +40,8 @@ ios皮肤/样式更换 适配xib和代码
 
 @end
 
-#import "S_WarmColorBigestFontLabel.h"
-
+.m文件
+import "S_WarmColorBigestFontLabel.h"
 @implementation S_WarmColorBigestFontLabel
 
 - (void)hbbStyleControlChangeStyle
