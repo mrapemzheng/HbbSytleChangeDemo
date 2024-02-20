@@ -1,4 +1,13 @@
 # HbbSytleChangeDemo
+
+This is a component than can change the style at a second.
+I write it in 2015, and I felt upset to globally style changing. 
+So finally, I write this component for myself.
+
+Just conform a protocol named 'HbbStyleControlDelegate', which actually read style from a configuration file.
+
+And of cause, I can update the style when I call the method named 'hbbStyleControlChangeStyle', from father view.
+
 ios皮肤/样式更换 适配xib和代码
 
 #优势
